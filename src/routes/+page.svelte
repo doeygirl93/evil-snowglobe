@@ -46,9 +46,9 @@
         </div>
 
         <!-- Bottom part of the hero-->
-        <div class="h-[20vh] w-[50%] mx-auto flex flex-row items-center justify-center gap-[2vw] ">
+        <div class="h-[20vh] w-[50%] mx-auto flex flex-row items-center justify-center gap-[1.5vw] ">
             <input bind:value={email} placeholder="you@hackclub.com" class=" text-[3vh] px-3 py-2 h-[5vh] w-[70%] bg-linear-to-t from-yellow-100 to bg-white outline-4 outline-gray-400" >
-            <a href="https://snowglobe.hackclub.com/" class="h-[5vh] w-[5vw] p-2 text-red-900 text-[2.75vh] font-serif outline-4 outline-red-800 bg-linear-to-b from-red-600/70 to bg-yellow-50 flex flex-col justify-center items-center">
+            <a href="https://snowglobe.hackclub.com/" class="h-[5vh] w-[5vw] p-2 text-red-900 text-[2.75vh] font-serif outline-4 outline-red-800 bg-linear-to-b from-red-600/70 to bg-yellow-50 flex flex-col justify-center items-center hover:scale-105 transition-all duration-200 ease-out">
                 go!
             </a>
         </div>
