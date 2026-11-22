@@ -28,17 +28,18 @@
     <!-- Main part of the hero content-->
     <section class="relative h-[95vh] w-full flex flex-col z-50 ">
         <!-- First top height of the hero-->
-        <div class=" relative w-full h-[70vh] flex flex-row ">
-            <div class="w-full mt-auto flex flex-col items-end">
+        <div class=" relative w-full h-[85vh] flex flex-row ">
+            <div class="w-full mt-auto flex flex-col items-end ">
                 <img src={SGlogo} alt="snowglove logo" class="w-[80%]"/>
             </div>
-            <div class="w-full h-full flex flex-col justify-end"> 
-                <h2 class="text-blue-900 font-serif text-[3vh] mx-auto w-[80%]">
-                    Every single Hackclub Staff at snowglobe is FROZON <br>
+
+            <div class="w-full h-full flex flex-col justify-end ml-[5vw]"> 
+                <h2 class="text-blue-900 font-serif text-[3vh] w-[90%]">
+                    Every single Hackclub Staff at snowglobe is FROZON,
                      now you must redo snowglobe by completing mini games to raise 
                      the heat to save Hack Club!
                 </h2>
-                <h3 class= "mt-[3vh] text-blue-600 font-serif text-[2.5vh] mx-auto w-[80%]">
+                <h3 class= "mt-[2vh] text-blue-600 font-serif text-[2.25vh] w-[80%] mb-[1vh]">
                     For hackclubers - At your mamas house - Until my hosting credits run out
                 </h3>
             </div>
@@ -46,8 +47,8 @@
 
         <!-- Bottom part of the hero-->
         <div class="h-[20vh] w-[50%] mx-auto flex flex-row items-center justify-center gap-[2vw] ">
-            <input bind:value={email} placeholder="you@hackclub.com" class=" text-[3vh] px-3 py-2 h-[6vh] w-[60%] bg-linear-to-t from-yellow-100 to bg-white outline-4 outline-gray-400" >
-            <a href="https://snowglobe.hackclub.com/" class="h-[6vh] w-[5vw] p-2 text-red-900 text-[2.75vh] font-serif outline-4 outline-red-800 bg-linear-to-b from-red-600/70 to bg-yellow-50 flex flex-col justify-center items-center">
+            <input bind:value={email} placeholder="you@hackclub.com" class=" text-[3vh] px-3 py-2 h-[5vh] w-[70%] bg-linear-to-t from-yellow-100 to bg-white outline-4 outline-gray-400" >
+            <a href="https://snowglobe.hackclub.com/" class="h-[5vh] w-[5vw] p-2 text-red-900 text-[2.75vh] font-serif outline-4 outline-red-800 bg-linear-to-b from-red-600/70 to bg-yellow-50 flex flex-col justify-center items-center">
                 go!
             </a>
         </div>
