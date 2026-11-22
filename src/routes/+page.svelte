@@ -5,6 +5,19 @@
     let email = $state('')
     import SGlogo from "../images/SGlogo.webp"
     import globe_v1 from "../images/globe_v1.webp"
+
+    let replyToServer = $state('');
+
+    async function sendIt() {
+        const res = await fetch(' api/hello', {
+            method: 'POST',
+            headers: { 'Content-type': 'application/json'},
+            body: JSON.stringify({ name: 'Ada'})
+        });
+
+        const data = await res.json();
+        replyToServer = data.recieved
+    }
 </script>
 
 <main class="relative">
@@ -62,5 +75,11 @@
     </div>
     <!-- Back ground blue color-->
     <div class=" fixed z-0 h-full w-full bg-sky-50/50 "></div>
+
+    <button onclick={sendIt}>
+        click me
+    </button>
+
+    <h1> Sever tranmitted this request: {replyToServer}</h1>
 
 </main>
